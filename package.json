@@ -11,6 +11,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "postversion": "git push --follow-tags"
+  },
   "devDependencies": {
     "@types/thrift": "^0.10.8",
     "next": "^9.0.7",
