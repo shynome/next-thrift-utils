@@ -2,6 +2,9 @@
 
 const thrift = require("thrift");
 
+/**
+ * @type {import('./index').createThriftServer}
+ */
 export const createThriftServer = (processor, handler) => thrift.createWebServer({
   services: {
     '/': {
