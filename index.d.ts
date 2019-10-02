@@ -3,7 +3,7 @@ import thrift, { TProcessorConstructor } from "thrift";
 
 import { Server } from "net";
 
-export const createThriftServer = <TProcessor, THandler>(processor: TProcessorConstructor<TProcessor, THandler>, handler: THandler) => Server
+export function createThriftServer<TProcessor, THandler>(processor: TProcessorConstructor<TProcessor, THandler>, handler: THandler): Server
 
 import { NextApiRequest, NextApiResponse, PageConfig } from "next";
 
