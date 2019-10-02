@@ -5,7 +5,7 @@ const thrift = require("thrift");
 /**
  * @type {import('./index').createThriftServer}
  */
-export const createThriftServer = (processor, handler) => thrift.createWebServer({
+exports.createThriftServer = (processor, handler) => thrift.createWebServer({
   services: {
     '/': {
       // @ts-ignore
@@ -19,12 +19,12 @@ export const createThriftServer = (processor, handler) => thrift.createWebServer
 /**
  * @type {import('next').PageConfig}
  */
-export const thriftApiPageConfig = { api: { bodyParser: false } }
+exports.thriftApiPageConfig = { api: { bodyParser: false } }
 
 /**
  * @type {import('./index').handleThriftServer}
  */
-export const handleThriftServer = (server) => (req, res) => {
+exports.handleThriftServer = (server) => (req, res) => {
   req.url = '/'
   server.emit('request', req, res)
 }
