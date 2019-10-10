@@ -801,6 +801,11 @@
   resolved "https://registry.npm.taobao.org/@csstools/convert-colors/download/@csstools/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha1-rUldxBsS511YjG24uYNPCPoTHrc=
 
+"@shynome/thrift-server@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@shynome/thrift-server/-/thrift-server-0.0.1.tgz#527f319b070354ea04b4afb31e51f0453568b554"
+  integrity sha512-761IoUZyI0Wk5e2Nb3iuuFKstgEoDQ2mNMZgPUTVW8fUSKn9EpDcQkvSQjojVbWtbEc/ZlTOrjKNy8K10NaXjA==
+
 "@types/node-int64@*":
   version "0.4.29"
   resolved "https://registry.npm.taobao.org/@types/node-int64/download/@types/node-int64-0.4.29.tgz#8c7c16a7c1195ae4f8beaa903b0018ac66291d16"
@@ -820,8 +825,8 @@
 
 "@types/thrift@^0.10.8":
   version "0.10.8"
-  resolved "https://registry.npm.taobao.org/@types/thrift/download/@types/thrift-0.10.8.tgz#c9b4293972a074ea86a3c94f77cdb8a15e605300"
-  integrity sha1-ybQpOXKgdOqGo8lPd824oV5gUwA=
+  resolved "https://registry.yarnpkg.com/@types/thrift/-/thrift-0.10.8.tgz#c9b4293972a074ea86a3c94f77cdb8a15e605300"
+  integrity sha512-34UhuvFq2HJgn2nfXCFDLvBKeIbWzHjOFh1WHSQP7lsv4vGOirbKCcwVnAkx+1IOGuwpMR6GFnHoBe7tv1wO4A==
   dependencies:
     "@types/node" "*"
     "@types/node-int64" "*"
@@ -5084,8 +5089,8 @@ terser@^4.1.2:
 
 thrift@^0.12.0:
   version "0.12.0"
-  resolved "https://registry.npm.taobao.org/thrift/download/thrift-0.12.0.tgz#67678beba655ca40dd30744b65455f2b9f8e9912"
-  integrity sha1-Z2eL66ZVykDdMHRLZUVfK5+OmRI=
+  resolved "https://registry.yarnpkg.com/thrift/-/thrift-0.12.0.tgz#67678beba655ca40dd30744b65455f2b9f8e9912"
+  integrity sha512-qE9PZi4XSbSQLz/sNxj6+ZiiFQYgbM4GmlO3CS/EVJBjCVfd46Zw0aiVIqOvVn74M7XUGyjOs2chAOwK4d4/hQ==
   dependencies:
     node-int64 "^0.4.0"
     q "^1.5.0"

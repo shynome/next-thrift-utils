@@ -20,7 +20,10 @@
     "thrift": "^0.12.0"
   },
   "peerDependencies": {
-    "thrift": ">=0.10.0",
-    "next": ">=9.0.0"
+    "next": ">=9.0.0",
+    "thrift": ">=0.10.0"
+  },
+  "dependencies": {
+    "@shynome/thrift-server": "^0.0.1"
   }
 }

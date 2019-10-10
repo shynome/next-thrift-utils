@@ -1,6 +1,6 @@
 // @ts-check
 
-const thrift = require("thrift");
+const thrift = require("@shynome/thrift-server");
 
 /**
  * @type {import('./index').createThriftServer}
