@@ -1,6 +1,6 @@
 {
   "name": "@shynome/next-thrift-utils",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "utils for use thrift webserver in next.js",
   "main": "lib/index.js",
   "repository": "git@github.com:shynome/next-thrift-utils.git",
