@@ -1,3 +1,19 @@
+### 1.0.0
+
+#### ADD
+
+- 添加测试
+
+#### FIX
+
+- 修复 `thrift.TBufferedTransport not undefined` 的问题
+
+### 0.0.4
+
+#### CHANGE
+
+- 使用了 `@shynome/thrift-server` 替换 `thrift` 的服务器实现
+
 ### 0.0.3
 
 #### FIX
